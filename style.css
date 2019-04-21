@@ -1,0 +1,113 @@
+body {
+  font-family: 'Source Code Pro', monospace;
+  background-color:#BDBDBD;
+  margin: 0;
+  padding: 0;
+}
+img.menu {
+  position: fixed;
+  right: 0;
+  margin: 10px 50px 10px 50px;
+  cursor: pointer;
+}
+h1, h2, h3, p {
+  color: #242424;
+  text-align: center;
+}
+div.title{
+  height: 700px;
+}
+h1{
+  padding-top: 200px;
+  margin-bottom: 300px;
+  font-size: 58px;
+}
+h2 {
+  margin:0;
+  font-size: 24px;
+}
+.daysSince {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 32px;
+}
+.month {
+  margin-bottom: 300px;
+  margin-top: 200px;
+}
+.container {
+  position: relative;
+  width: 385px;
+  margin: 150px auto 75px auto;
+  cursor: pointer;
+ }
+.front {
+  position: absolute;
+  z-index: 10;
+  transition: top 400ms;
+  transition: left 400ms;
+  transition: height 400ms;
+}
+.back {
+  position: relative;
+  margin: auto;
+}
+.caption {
+  margin-bottom: 100px;
+  visibility: hidden;
+}
+.show {
+  visibility: visible;
+}
+
+
+#todofront {
+  top: -45px;
+  left: 40px;
+  height: 383px;
+  width: auto;
+}
+#rpsfront{
+  top: -69px;
+  left: 7px;
+  height: 387px;
+  width: auto;
+}
+#rocketfront {
+  top: -55px;
+  left: -51px;
+  height: 384px;
+  width: auto;
+}
+#twffront {
+  top: -79px;
+  left: -59px;
+  height: 313px;
+  width: auto;
+}
+#todofront.grow {
+  top: -50px;
+  left: 35px;
+  height: 393px;
+  width: auto;
+}
+#rpsfront.grow {
+  top: -74px;
+  left: 2px;
+  height: 397px;
+  width: auto;
+}
+ #rocketfront.grow {
+  top: -60px;
+  left: -56px;
+  height: 394px;
+  width: auto;
+}
+ #twffront.grow {
+  top: -84px;
+  left: -64px;
+  height: 323px;
+  width: auto;
+}
