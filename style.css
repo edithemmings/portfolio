@@ -14,6 +14,8 @@ img.menu {
 .fixed{
   position: fixed;
   width: 100%;
+  /*background: URL("./img/lake.jpg");*/
+
 }
 .unfixed {
   position: relative;
