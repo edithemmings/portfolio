@@ -25,8 +25,8 @@ const DEFAULT_IMAGES = [
 class HomeIndex extends React.Component {
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
-        const siteDescription = "Site description"
+        const siteTitle = "Edith Emmings"
+        const siteDescription = "Edith Emmings Software Engineer Portfolio"
 
         return (
             <Layout>
