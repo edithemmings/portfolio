@@ -1,18 +1,6 @@
-# gatsby-starter-strata
+# Portfolio of Projects
 
-**This is a starter for Gatsby.js V2.**
+Check out https://www.edithemmings.com for deployment
 
-**The older V1 version of this starter can be found on the v1 branch**
+Built with React in a Gatsby template (gatsby-starter-strata by @codebushi)
 
-Gatsby starter based on the Strata site template, designed by [HTML5 UP](https://html5up.net/strata). Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
-
-## Preview
-
-http://gatsby-strata.surge.sh/
-
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-strata https://github.com/ChangoMan/gatsby-starter-strata`
-
-Run `gatsby develop` in the terminal to start.
