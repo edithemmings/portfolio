@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import nodemailer from 'nodemailer'
+// import nodemailer from 'nodemailer'
 
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
@@ -30,42 +30,42 @@ class HomeIndex extends React.Component {
             [keyName]: event.target.value
         })
     }
-    handleEmailSubmit = () => {
-        async function main() {
-            // Generate test SMTP service account from ethereal.email
-            // Only needed if you don't have a real mail account for testing
-            let testAccount = await nodemailer.createTestAccount();
+    // handleEmailSubmit = () => {
+    //     async function main() {
+    //         // Generate test SMTP service account from ethereal.email
+    //         // Only needed if you don't have a real mail account for testing
+    //         let testAccount = await nodemailer.createTestAccount();
 
-            // create reusable transporter object using the default SMTP transport
-            let transporter = nodemailer.createTransport({
-                host: 'smtp.gmail.com',
-                port: 587,
-                secure: false, // true for 465, false for other ports
-                auth: {
-                    user: process.env.EMAIL_ADDRESS, // generated ethereal user
-                    pass: process.env.EMAIL_PASSWORD // generated ethereal password
-                }
-            });
+    //         // create reusable transporter object using the default SMTP transport
+    //         let transporter = nodemailer.createTransport({
+    //             host: 'smtp.gmail.com',
+    //             port: 587,
+    //             secure: false, // true for 465, false for other ports
+    //             auth: {
+    //                 user: process.env.EMAIL_ADDRESS, // generated ethereal user
+    //                 pass: process.env.EMAIL_PASSWORD // generated ethereal password
+    //             }
+    //         });
 
-            // send mail with defined transport object
-            let info = await transporter.sendMail({
-                from: '"Fred Foo 👻" <edieb.543@gmail.com>', // sender address
-                to: 'emmings.edith@gmail.com', // list of receivers
-                subject: `NEW MESSAGE from ${this.state.name}`, // Subject line
-                text: `EMAIL: ${this.state.email}`, // plain text body
-                html: `<b>${this.state.message}</b>` // html body
-            });
+    //         // send mail with defined transport object
+    //         let info = await transporter.sendMail({
+    //             from: '"Fred Foo 👻" <edieb.543@gmail.com>', // sender address
+    //             to: 'emmings.edith@gmail.com', // list of receivers
+    //             subject: `NEW MESSAGE from ${this.state.name}`, // Subject line
+    //             text: `EMAIL: ${this.state.email}`, // plain text body
+    //             html: `<b>${this.state.message}</b>` // html body
+    //         });
 
-            console.log('Message sent: %s', info.messageId);
-            // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+    //         console.log('Message sent: %s', info.messageId);
+    //         // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
 
-            // Preview only available when sending through an Ethereal account
-            console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-            // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
-        }
+    //         // Preview only available when sending through an Ethereal account
+    //         console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+    //         // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
+    //     }
 
-        main().catch(console.error);
-    }
+    //     main().catch(console.error);
+    // }
     render() {
         const siteTitle = "Edith Emmings"
         const siteDescription = "Edith Emmings Software Engineer Portfolio"
