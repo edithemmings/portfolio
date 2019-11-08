@@ -10,14 +10,19 @@ import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
 import thumb03 from '../assets/images/thumbs/03.jpg'
 import thumb04 from '../assets/images/thumbs/04.jpg'
+import thumb05 from '../assets/images/thumbs/05.png'
+
 
 import full01 from '../assets/images/fulls/01.jpg'
 import full02 from '../assets/images/fulls/02.jpg'
 import full03 from '../assets/images/fulls/03.jpg'
 import full04 from '../assets/images/fulls/04.jpg'
+import full05 from '../assets/images/fulls/05.png'
+
 
 const DEFAULT_IMAGES = [
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Open Doors', description: 'A web app to make it easier to find available emergency housing. (Prime Academy Solo Project, these numbers are palaceholders for demonstration purposes)' },
+    { id: '5', source: full05, thumbnail: thumb05, caption: 'ConOps for 2D Con', description: 'A volunteer scheduling and management system for 2D Con, a charitable gaming convention. (Client project, pro-bono)' },
+    { id: '4', source: full04, thumbnail: thumb04, caption: 'Open Doors', description: 'A web app to make it easier to find available emergency housing. (Prime Academy Solo Project)' },
     { id: '3', source: full03, thumbnail: thumb03, caption: 'Carbon Foodprint', description: 'A web app to track the carbon footprint of your food consumption. (First place at Hack the Gap, October 2019)' },
     { id: '2', source: full02, thumbnail: thumb02, caption: 'Mina Families', description: 'A platform to connect new and expecting families with care providers. (Freelance contract)' },
     { id: '1', source: full01, thumbnail: thumb01, caption: 'The Wildlife Foundation', description: 'An informational website for an organization that works to conserve wildlife and indiginous land. (Freelance contract)' },
@@ -97,11 +102,12 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>About</h2>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi
-                            lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis
-                            tortor primis integer massa adipiscing id nisi accumsan pellentesque
-                            commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus
-                            id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+                        <p>
+                            Software engineer with a background in cancer research. 
+                            Self-driven, adaptable learner, and strong communicator 
+                            who finds fulfillment in making things easier for other people. 
+                            In my free time I enjoy board games, live music, and delicious food.
+                        </p>
                         {/* <ul className="actions">
                             <li><a href="#" className="button">Learn More</a></li>
                         </ul> */}
