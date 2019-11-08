@@ -106,7 +106,8 @@ class HomeIndex extends React.Component {
                             Software engineer with a background in cancer research. 
                             Self-driven, adaptable learner, and strong communicator 
                             who finds fulfillment in making things easier for other people. 
-                            In my free time I enjoy board games, live music, and delicious food.
+                            In my free time you can find me playing board games, listening to 
+                            live music, or shooting amateur b&w photos on my grandfather's film camera.
                         </p>
                         {/* <ul className="actions">
                             <li><a href="#" className="button">Learn More</a></li>
