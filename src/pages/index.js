@@ -140,8 +140,13 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="three">
-                        <h2>Get In Touch</h2>
-                        <div className="row">
+                        {/* <h2>Get In Touch</h2>
+                        <p>
+                            I'm on 
+                            <span> LinkedIn</span>, 
+                            <span> GitHub</span>
+                        </p> */}
+                        {/* <div className="row">
                             <div className="8u 12u$(small)">
                                 <form method="post" action="#">
                                     <div className="row uniform 50%">
@@ -154,25 +159,8 @@ class HomeIndex extends React.Component {
                                     <li><input type="submit" value="Send Message" /></li>
                                 </ul>
                             </div>
-                            {/* <div className="4u 12u$(small)">
-                                    <ul className="labeled-icons">
-                                        <li>
-                                            <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                            1234 Somewhere Rd.<br />
-                                            Nashville, TN 00000<br />
-                                            United States
-                                    </li>
-                                        <li>
-                                            <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                            000-000-0000
-                                    </li>
-                                        <li>
-                                            <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                            <a href="#">hello@untitled.tld</a>
-                                        </li>
-                                    </ul>
-                                </div> */}
-                        </div>
+            
+                        </div> */}
                     </section>
 
                 </div>
