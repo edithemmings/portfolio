@@ -11,17 +11,7 @@ const Header = () => (
         <Container>
           <Grid>
             <Text>
-              <h1>
-                I'm Edith Emmings</h1>
-                <h2>
-                I develop websites, apps, and other software
-              </h2>
-              <br />
-              <p>
-                <StyledExternalLink href="https://github.com/edithemmings">
-                  Check out my GitHub &nbsp;&#x2794;
-                </StyledExternalLink>
-              </p>
+              <h1>Hello</h1>
             </Text>
           </Grid>
         </Container>
