@@ -1,12 +1,15 @@
 var plugins = [{
-      plugin: require('/Users/edithemmings/prime/Portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/z004m90/Documents/Personal projects/portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/edithemmings/prime/Portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/assets/images/avatar.jpg"},
-    },{
-      plugin: require('/Users/edithemmings/prime/Portfolio/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/Users/z004m90/Documents/Personal projects/portfolio/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/z004m90/Documents/Personal projects/portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"Absurd","short_name":"absurd","start_url":"/","background_color":"#8bd8ed","theme_color":"#8bd8ed","display":"minimal-ui","icon":"static/favicon.svg"},
+    },{
+      plugin: require('/Users/z004m90/Documents/Personal projects/portfolio/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":["average","prata:400,700"]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

@@ -1,34 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
-import { StaticQuery, graphql } from 'gatsby';
+// import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
 const Header = () => (
-  <StaticQuery
-    query={graphql`
-      query {
-        art_build: file(
-          sourceInstanceName: { eq: "art" }
-          name: { eq: "build" }
-        ) {
-          childImageSharp {
-            fluid(maxWidth: 1400) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
-      }
-    `}
-    render={data => (
-      <HeaderWrapper>
+  <HeaderWrapper>
         <Container>
           <Grid>
-            <Art>
-              <Img fluid={data.art_build.childImageSharp.fluid} />
-            </Art>
             <Text>
               <h1>
                 I'm Edith Emmings</h1>
@@ -45,8 +26,46 @@ const Header = () => (
           </Grid>
         </Container>
       </HeaderWrapper>
-    )}
-  />
+//   <StaticQuery
+//     query={graphql`
+//       query {
+//         art_build: file(
+//           sourceInstanceName: { eq: "art" }
+//           name: { eq: "build" }
+//         ) {
+//           childImageSharp {
+//             fluid(maxWidth: 1400) {
+//               ...GatsbyImageSharpFluid_withWebp_tracedSVG
+//             }
+//           }
+//         }
+//       }
+//     `}
+//     render={data => (
+//       <HeaderWrapper>
+//         <Container>
+//           <Grid>
+//             <Art>
+//               <Img fluid={data.art_build.childImageSharp.fluid} />
+//             </Art>
+//             <Text>
+//               <h1>
+//                 I'm Edith Emmings</h1>
+//                 <h2>
+//                 I develop websites, apps, and other software
+//               </h2>
+//               <br />
+//               <p>
+//                 <StyledExternalLink href="https://github.com/edithemmings">
+//                   Check out my GitHub &nbsp;&#x2794;
+//                 </StyledExternalLink>
+//               </p>
+//             </Text>
+//           </Grid>
+//         </Container>
+//       </HeaderWrapper>
+//     )}
+//   />
 );
 
 const HeaderWrapper = styled.header`

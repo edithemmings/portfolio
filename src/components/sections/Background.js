@@ -46,14 +46,16 @@ const About = () => (
     render={data => (
       <Section id="about">
         <Container>
+        <h1>Background</h1>
           <Grid>
             <div>
               <h2>Former scientific researcher</h2>
               <p>
                 I got my BA in chemistry from Carleton College where I also 
-                played soccer and sewed costumes for the theater department. 
-                After graduating, I researched ovarian cancer at the University of Minnesota for over a year. 
-                There I published 3 papers before packing my bags and moving to Nairobi. 
+                played soccer, sewed theater costumes, and researched organic chemistry. 
+                After graduating, I went on to research chemo-resistance in ovarian cancer 
+                at the University of Minnesota for over a year. 
+                There I authored and co-authored some papers. 
               </p>
             </div>
             <Art>
@@ -67,9 +69,9 @@ const About = () => (
             <div>
               <h2>...turned front-end dev</h2>
               <p>
-                In Nairobi, I became inspired to build things with code. I
-                utilized online learning resources to teach myself web development and 
-                landed my first freelance gig with a local wildlife organization.
+                After leaving the lab, I moved to Nairobi where I became inspired to build 
+                things with code. I utilized online learning resources to teach myself the basics of 
+                web development and landed my first freelance gig with a local wildlife organization.
               </p>
             </div>
           </Grid>
@@ -77,7 +79,7 @@ const About = () => (
             <div>
               <h2>...turned full-stack engineer</h2>
               <p>
-                After a return to Minneapolis and more freelancing, I
+                After a return to Minneapolis and more gigging, I
                 and enrolled in Prime Digital Academy's full-stack software engineering certification program. 
                 Upon graduating, I landed my current job.
               </p>
