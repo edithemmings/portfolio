@@ -5,7 +5,7 @@ import ABOUT from '../../constants/aboutConst'
 const About = () => (
   <Section id="about" accent>
     <Container>
-        <h3>About</h3>
+        <h2>About</h2>
         <p>{ABOUT.description}</p>
     </Container>
   </Section>

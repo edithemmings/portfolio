@@ -22,19 +22,30 @@ const GlobalStyles = createGlobalStyle`
 
   h1 {
     ${props => props.theme.font_size.xlarge};
+    font-weight: bold;
   }
 
   h2 {
     ${props => props.theme.font_size.larger};
+    margin-bottom: 20px;
   }
 
   h3 {
     ${props => props.theme.font_size.large};
   }
 
-  p {
+  h4 {
+    font-style: italic;
+    ${props => props.theme.font_size.regularPlus};
+    margin: 0;
+  }
+
+  p, li{
     ${props => props.theme.font_size.regular};
-    color: ${props => props.theme.color.black.light};
+    color: ${props => props.theme.color.black.regular};
+  }
+  ul {
+    margin-left: -16px;
   }
 
   @media (max-width: ${props => props.theme.screen.sm}) {
@@ -50,7 +61,11 @@ const GlobalStyles = createGlobalStyle`
       ${props => props.theme.font_size.regular};
     }
 
-    p {
+    h4 {
+      ${props => props.theme.font_size.smallPlus};
+    }
+
+    p, li {
       ${props => props.theme.font_size.small};
     }
   }
