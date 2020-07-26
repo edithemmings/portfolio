@@ -2,14 +2,13 @@ import React from 'react';
 
 import Layout from '@common/Layout';
 import Navbar from '@common/Navbar';
-
-import Header from '@sections/Header';
-import About from '@sections/About';
-import Projects from '@sections/Projects';
-import Tech from '@sections/Tech';
-import Background from '@sections/Background';
-// import Faq from '@sections/Faq';
-import Footer from '@sections/Footer';
+import Header from '../components/sections/Header';
+import About from '../components/sections/About';
+// import Projects from '../components/sections/Projects';
+import Tech from '../components/sections/Tech';
+import Background from '../components/sections/Background';
+import Footer from '../components/sections/Footer';
+import Contact from '../components/sections/Contact';
 
 const IndexPage = () => (
   <Layout>
@@ -17,9 +16,9 @@ const IndexPage = () => (
     <Header />
     <About />
     <Tech />
-    <Projects />
     <Background />
-    {/* <Faq /> */}
+    {/* <Projects /> */}
+    <Contact />
     <Footer />
   </Layout>
 );
